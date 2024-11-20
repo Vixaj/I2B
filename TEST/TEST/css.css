@@ -1,0 +1,32 @@
+body{ /* Tagovy selektor */
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    animation-name: test;
+    animation-delay: 4s;
+}
+
+@keyframes test{
+    from{
+        visibility: hidden;
+    }to{
+        visibility: visible;
+    }
+}
+
+#header{
+    background-color: rgb(54, 52, 52);
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+a{
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    color: whitesmoke;
+    text-decoration-line: none;
+
+}
+
+
