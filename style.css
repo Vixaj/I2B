@@ -4,6 +4,7 @@ body{
 }
 #head{
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
     grid-column: 2/3;
 }
 
@@ -44,6 +45,7 @@ body{
 }
 #labelPodm{
     grid-column: 2/3;
+    font-size: larger;
     justify-self:center;
     font-family: Arial, Helvetica, sans-serif;
 }
